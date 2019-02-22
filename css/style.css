@@ -102,7 +102,7 @@ h2{
 .img6_01:nth-child(4n+1) {
   margin-left: 0;
 }
-.img6_01:nth-child(-n-3){
+.img6_01:nth-child(-n+3){
   margin-top: 0;
 }
 .main_content_img6_box_top {
@@ -208,6 +208,9 @@ h2{
   padding-bottom: 25px;
   color: #fff;
   margin-left: auto;
+}
+a {
+  text-decoration: none;
 }
 <style>
 @import url('https://fonts.googleapis.com/css?family=Raleway');
