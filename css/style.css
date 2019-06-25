@@ -161,6 +161,7 @@ h2{
   transition-duration: 0.3s;
 }
 .main_content_img6_mailbox_btn{
+  display: inline-block;
   background-color: #74cfae;
   padding: 14px 20px;
   color: #fff;
@@ -195,6 +196,9 @@ h2{
 }
 .figure_img_circle:first-child{
   margin-left: 0;
+}
+figcaption{
+  margin-top: 10px;
 }
 .inner_icon{
   padding-top: 200px;
@@ -234,7 +238,7 @@ h2{
 }
 
 /*タブ*/
-@media screen and (min-width: 768px)(max-width: 1199px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
 .inner{
   width: 97%;
   margin: 0 auto;
@@ -245,6 +249,7 @@ h2{
 }
 .main_content_inner{
   padding-top:50px;
+  padding-bottom: 25px;
   width: 97%;
 }
 .sp_text{
@@ -259,14 +264,15 @@ h2{
   margin:0 20px;
 }
 .main_content_img6_box_top{
+  display: block;
   line-height: 0;
 }
 .img6_01{
-  display: inline-block;
+  display: block;
   margin:0;
 }
 .img6_01:nth-child(3){
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .img6_text_btn{
   display: inline-block;
@@ -279,7 +285,7 @@ h2{
   display: inline-block;
 }
 .figure_img_circle{
-  margin-top:80px;
+  margin-top:88px;
   margin-left: 0;
 }
 .figure_img_circle:nth-first{
