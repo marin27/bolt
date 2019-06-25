@@ -15,18 +15,6 @@ a {
   margin: 0 auto;
 }
 .header{
-  position: relative;
-  top: 0;
-  left: 0;
-  margin: 0;
-  height: 78px;
-}
-.clearfix{
-  content: "";
-  display: block;
-  clear: both;
-}
-.header_fixed{
   position: fixed;
   top: 0;
   left: 0;
@@ -34,7 +22,11 @@ a {
   background-color: #fff;
   width: 100%;
   z-index: 1;
-
+}
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
 }
 .header_inner{
   padding-top:15px;
@@ -269,9 +261,13 @@ figcaption{
 }
 .img6_01{
   display: block;
-  margin:0;
+  margin:auto;
+  max-width: 300px;
 }
-.img6_01:nth-child(3){
+.img6_01:nth-child(3n+1){
+  margin:auto;
+}
+.img6_01:nth-child(3n){
   margin-bottom: 80px;
 }
 .img6_text_btn{
@@ -356,17 +352,24 @@ h1{
 }
 .img6_01{
   display: inline-block;
-  margin:0;
+  margin:auto;
+  max-width: 300px;
 }
-.img6_01:nth-child(3){
+.img6_01:nth-child(3n+1){
+  margin:auto;
+}
+.img6_01:nth-child(3n){
   margin-bottom: 50px;
 }
 .img6_text_btn{
   display: inline-block;
   margin:0 10px;
 }
+.main_content_img6_text_mailbox {
+  margin-top: 0;
+}
 .main_content_img6_text{
-  margin-bottom: 40px;
+  margin: 0 20px 40px 20px;
 }
 .main_content_figure{
   display: inline-block;
