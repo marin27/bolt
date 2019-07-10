@@ -23,10 +23,6 @@ a {
   width: 100%;
   z-index: 1;
 }
-.header_height{
-  height: 78px;
-}
-
 .clearfix{
   content: "";
   display: block;
@@ -56,6 +52,10 @@ a {
 .header_btn:hover{
   color:#333;
 }
+.main{
+  padding-top: 78px;
+}
+
 .main_top_inner{
   padding-top: 250px;
   padding-bottom: 250px;
