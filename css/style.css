@@ -23,6 +23,10 @@ a {
   width: 100%;
   z-index: 1;
 }
+.header_height{
+  height: 78px;
+}
+
 .clearfix{
   content: "";
   display: block;
@@ -405,7 +409,7 @@ h1{
   width: 97%;
 }
 
-/*-----ハンバーガーメニューテスト-----*/
+/*-----ハンバーガーメニュー-----*/
 .hanbagamenu{
   right: 14px;
   top: 15px;
